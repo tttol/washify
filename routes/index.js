@@ -2,7 +2,7 @@ const express = require('express');
 const { resolve } = require('path');
 var router = express.Router();
 
-const ddbScan = require('../public/javascripts/ddb-scan2');
+const ddbScan = require('../public/javascripts/ddb-scan');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -51,10 +51,6 @@ router.get('/', function (req, res, next) {
     res.render('index', { title: "hoge", data: items });
   })();
 
-  // const response = ddbScan.selectAll();
-  // console.log("--------------------------------------");
-  // console.log(response);
-  // console.log("--------------------------------------");
 });
 
 

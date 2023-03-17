@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+    :root {
+        --main-bg-color: #313030;
+        --header-border-color: #5C5C5C;
+        --card-bg-color: #4D4C4C;
+        --text-date-color: #8C8C8C;
+    }
+
+    body {
+        background-color: var(--main-bg-color);
+    }
+
+    .header-border {
+        border-bottom: solid 4px var(--header-border-color);
+    }
+}

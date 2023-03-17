@@ -513,15 +513,96 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+:root {
+  --main-bg-color: #313030;
+  --header-border-color: #5C5C5C;
+  --card-bg-color: #4D4C4C;
+  --text-date-color: #8C8C8C;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+.header-border {
+  border-bottom: solid 4px var(--header-border-color);
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.bg-\[var\(--card-bg-color\)\] {
+  background-color: var(--card-bg-color);
+}
+
+.p-7 {
+  padding: 1.75rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
-.underline {
-  text-decoration-line: underline;
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-\[var\(--text-date-color\)\] {
+  color: var(--text-date-color);
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }

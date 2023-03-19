@@ -5,7 +5,6 @@
             "use": "@vercel/node"
         }
     ],
-    // "buildCommands": "node bin/www",
     "routes": [
         {
           "src": "/(.*)",

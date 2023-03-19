@@ -8,6 +8,10 @@ const logger = require('morgan');
 const indexRouter = require('./routes/index');
 
 const app = express();
+// const port = process.env.PORT || 3000;
+// app.listen(port, ()=>{
+//     console.log("listening server")
+// })
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

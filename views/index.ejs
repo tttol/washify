@@ -10,7 +10,7 @@
       <div class="text-9xl font-bold text-center text-white py-10">washify</div>
     </header>
     <main>
-      <div class="w-3/5 bg-[var(--card-bg-color)] mx-auto my-10 rounded-3xl p-7">
+      <!-- <div class="w-3/5 bg-[var(--card-bg-color)] mx-auto my-10 rounded-3xl p-7">
         <p class="text-white text-4xl font-semibold">ベッドのシーツ</p>
         <div class="flex mt-10">
           <p class="text-[var(--text-date-color)] text-2xl">2023/03/09</p>
@@ -27,17 +27,12 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </main>
     <script type="text/javascript">
       const data = JSON.parse("<%= items %>".replaceAll("&#34;", "\""));
-      console.log(`data=${data[0].id}`);
-      console.log(`data=${data[1].id}`);
-      console.log(`data=${data[2].id}`);
-      console.log(`data=${data[3].id}`);
-
       const cardHtmlFormat = `
-      <div class="w-3/5 bg-[var(--card-bg-color)] mx-auto my-10 rounded-3xl p-7">
+      <div class="w-4/5 bg-[var(--card-bg-color)] mx-auto my-10 rounded-3xl p-7">
         <p class="text-white text-4xl font-semibold">CARD_TITLE</p>
         <div class="flex mt-10">
           <p class="text-[var(--text-date-color)] text-2xl">CARD_DATE</p>

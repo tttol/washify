@@ -1,10 +1,5 @@
 {
-    "builds": [
-        {
-            "src": "routes/app.js",
-            "use": "@vercel/node"
-        }
-    ],
+    "buildCommands": "node bin/www",
     "routes": [
         {
           "src": "/(.*)",

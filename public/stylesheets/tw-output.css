@@ -528,6 +528,26 @@ body {
   border-bottom: solid 4px var(--header-border-color);
 }
 
+.badge {
+  position: absolute;
+  top: -1rem;
+  left: 44rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #E93F33;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  line-height: 43px;
+  font-weight: bold;
+  padding: 2px 3px;
+}
+
+.relative {
+  position: relative;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -542,40 +562,32 @@ body {
   margin-left: auto;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
 .mr-5 {
   margin-right: 1.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .flex {
   display: flex;
 }
 
-.h-6 {
-  height: 1.5rem;
+.hidden {
+  display: none;
 }
 
 .h-10 {
   height: 2.5rem;
 }
 
-.w-3\/5 {
-  width: 60%;
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-4\/5 {
   width: 80%;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .rounded-3xl {
